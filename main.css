@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+html, body{
+    scroll-behavior: smooth !important;
+}
+
+*{
+    font-family: "Play", sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #bdc3c7;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #d35400;
+    border-radius: 10px;
+}
+
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #d35400;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #34495e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top-outer a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.fa-solid{
+    font-size: 18px;
+    color: white;
+}
+        /* header area */
+
+.navbar-brand img{
+    height: 50px;
+}
+
+.header-outer{
+    position: sticky;
+    top: 0;
+}
+        /* header area */
+
+
+.outer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+        /* home area */
+
+.home-outer{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/background-1.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.home-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20% !important;
+}
+
+.title-text{
+    color: white;
+}
+
+.header-text{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    line-height: 45px;
+}
+
+.home-widgets-outer{
+    margin-top: -120px;
+    /* border: 1px solid red; */
+}
+
+.widget-outer{
+    height: 300px;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+.widget-inner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    background-color: white;
+    /* width: 250px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px; */
+    height: 100%;
+}
+
+.widget-inner-top{
+    width: 100%;
+    height: 35%;
+    /*   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-inner-bottom{
+    /* border: 1px solid black; */
+    flex: 1;
+    padding: 10px;
+}
+
+.widget-icon{
+     width: 80px;
+     height: 80px;
+     background-color: #FE214F;
+     border-radius: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.widget-header{
+    text-align: center;
+}
+
+.widget-desc{
+    text-align: center;
+    color: #34495e;
+}
+
+.widget-icon svg{
+    width: 60%;
+    height: 60%;
+}
+
+        /* home area */
+
+        /* service area */
+
+.service-outer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background-2.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-container{
+    min-height: 750px;
+    /* border: 1px solid black; */
+}
+
+.row{
+    height: 100%;
+}
+
+.service-container-inner{
+    /* border: 1px solid blue;  */
+    height: 100%;
+}
+
+.service-right-side{
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.right-top{
+    height: 350px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-top:last-child{
+    margin-bottom: 0;
+}
+
+.service-top-title{
+    color: #FE214F;
+}
+
+.service-top-desc{
+    margin-top: 20px;
+}
+
+.service-grid-outer{
+    width: 100%;
+    height: auto;
+}
+
+.service-grid-inner{
+    height: 420px;
+    background-color: #1A1A1A;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-1{
+
+    background-image: url('https://images01.nicepage.com/2c/36/2c363cea606f515e74b1e427f2b437c0.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-3{
+
+    background-image: url('	https://images01.nicepage.com/9b/3f/9b3fb50d7f1060045a2fb67bc06f4802.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.link , .service-grid-title{
+    color: #FE214F;
+}
+
+.service-grid-header{
+    color: white;
+}
+
+.desc-service-grid{
+    color: #bdc3c7;
+}
+
+        /* service area */
+
+        /* About-area */
+
+.about-outer{
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+
+.about-outer img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+}
+
+.dark-shadow-outer{
+    background-color: rgba(19, 15, 64,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content{
+    width: 600px;
+    height: 80%;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-title{
+    color: #FE214F;
+    text-align: center;
+}
+
+.about-header{
+    color: white;
+    text-align: center;
+}
+
+        /* About-area */
+
+        /* Contact-area */
+
+.contact-us-outer{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+}
+
+.contact-inner{
+    display: flex;
+    height: 100%;
+}
+
+.contact-left{
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-right{
+    flex:1;
+    height: 100%;
+
+
+}
+.header-title, .address, .contact{
+    color: white;
+}
+
+.email{
+    color: #FE214F;
+}
+
+@media only screen and (max-width:992px){
+    .contact-inner{
+        display: block;
+    }
+    .contact-left, .contact-right{
+        height: 500px;
+    }
+    .contact-us-outer{
+        height: 1000px;
+    }
+}
+        /* Contact-area */
